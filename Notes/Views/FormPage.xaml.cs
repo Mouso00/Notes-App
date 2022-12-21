@@ -2,7 +2,8 @@ namespace Notes.Views;
 
 public partial class FormPage : ContentPage
 {
-	public FormPage()
+    string _fileName = Path.Combine(FileSystem.AppDataDirectory, "notes.txt");
+    public FormPage()
 	{
 		InitializeComponent();
 	}
@@ -11,6 +12,7 @@ public partial class FormPage : ContentPage
 
     private async void Save_form(object sender, EventArgs e)
     {
+        
         await Shell.Current.GoToAsync(".."); // Return after the button clicked 
     }
 }

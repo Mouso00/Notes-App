@@ -3,7 +3,7 @@
     x:Class="Notes.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:views="clr-namespace:Notes.Views"
+    xmlns:views="clr-namespace:Notes.ViewModel"
     Shell.FlyoutBehavior="Disabled">
 
     <TabBar>
@@ -11,7 +11,6 @@
             Title="Notes"
             ContentTemplate="{DataTemplate views:AllNotesPage}"
             Icon="icon_notes" />
-
         <ShellContent
             Title="About"
             ContentTemplate="{DataTemplate views:AboutPage}"

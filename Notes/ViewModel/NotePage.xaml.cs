@@ -1,5 +1,5 @@
 
-namespace Notes.Views;
+namespace Notes.ViewModel;
 
 [QueryProperty(nameof(ItemId), nameof(ItemId))]
 public partial class NotePage : ContentPage

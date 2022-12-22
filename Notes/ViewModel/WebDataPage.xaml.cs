@@ -1,4 +1,4 @@
-namespace Notes.Views;
+namespace Notes.ViewModel;
 
 public partial class WebDataPage : ContentPage
 {
